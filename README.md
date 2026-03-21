@@ -1,4 +1,5 @@
-# AccelFall Detector-
+# AccelFall Detector :
+
 Implemented fall detection using the KFall dataset with ML models on accelerometer and gyroscope time-series data for accurate fall vs. non-fall classification.
 
 Data Loading and Simulation: The project began by attempting to load the KFall dataset. If the dataset was not found or contained insufficient labels, a synthetic dataset was generated using the simulate_fall_data function. This simulated data included 'Normal', 'Pre-Fall', and 'Fall' activity, ensuring a balanced representation for training.
